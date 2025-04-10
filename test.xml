@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="about:legacy-compat"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>this is text</title>
+    <meta name="description" content="self-closing tag"/> 
+  </head>
+  <body lang="en">
+    <!-- this is a comment -->
+    <script type="text/javascript"><![CDATA[
+      // this is a CDATA section && >w<
+    ]]></script>
+    <p>Entities: &amp; &lt; &gt; &apos; &quot;</p>
+  </body>
+</html>
