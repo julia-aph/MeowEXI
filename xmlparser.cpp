@@ -6,7 +6,7 @@ namespace MeowEXI {
 
 XmlParser::XmlParser(std::string str) : str(str) {
     pos = 0;
-    stack.push(Event::start_document);
+    stack.push(Event::START_DOCUMENT);
 }
 
 void XmlParser::next() {
